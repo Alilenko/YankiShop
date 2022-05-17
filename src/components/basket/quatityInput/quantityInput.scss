@@ -1,0 +1,24 @@
+.qtty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60px;
+    border: 1px solid #2525257f;
+    padding: 10px;
+    .qtty__input{
+        background-color: transparent;
+        width: 40px;
+        border: none;
+        outline: none;
+        text-align: center;
+
+    }
+    input[type='number'] {
+        -moz-appearance:textfield;
+    }
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+}

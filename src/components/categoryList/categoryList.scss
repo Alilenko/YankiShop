@@ -1,0 +1,41 @@
+@import '../../styles/variables.scss';
+
+.category__list{
+    button{
+        background-color: transparent;
+        border: none;
+    }
+    .category__link{
+       display: flex;
+       flex-direction: column;
+       padding-left: 0;
+       .category__filter{
+            padding: 10px 5px;
+            color: $color-dark;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        }
+
+}
+@media(max-width:767px){
+    .category__list{
+        button{
+            width: 100%;
+            background-color: $color-elements;
+            padding: 10px;
+            cursor: pointer;
+            color: #fff;
+        }
+        .category__link{
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+        }
+        .category__link.active{
+            height: auto;
+            max-height: 999px;
+            transition: all .5s cubic-bezier(1, 0, 1, 0);
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.modal__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    height: 100%;
+    .form__input{
+        padding: 10px;
+        margin: 10px;
+        border-radius: 3px;
+        border: 1px solid rgba(72, 71, 71, 0.761);
+        min-width: 250px;
+    }
+    .form__error{
+        color: red;
+        font-size: 10px;
+        align-self: flex-start;
+        margin-left: 10px;
+    }
+
+    
+  
+}

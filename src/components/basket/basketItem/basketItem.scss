@@ -1,0 +1,32 @@
+.basket__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 10px 0;
+    border-bottom: .3px solid #2525257f;
+    .basket__img{
+        object-fit: cover;
+        max-height: 120px;
+    }
+    .basket__size{
+        max-width: 80px;
+    }
+    .basket__right{
+        display: flex;
+        justify-content: space-between;
+        div{
+            font-weight: 500;
+            padding-right: 20px;
+        }
+        .basket__delete{
+            background-color: transparent;
+            border: none;
+        }
+    }
+}
+@media(max-width: 767px){
+    .basket__item{
+        
+    }
+}

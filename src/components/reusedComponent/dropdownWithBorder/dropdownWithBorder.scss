@@ -1,0 +1,58 @@
+@import '../../../styles/variables.scss';
+
+.dropdown-withborder{
+ width: 100px;
+ position: relative;
+ margin: 10px;
+ box-sizing: border-box;
+  .dropdown-btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+    .dropdown-arrow{
+      width: 5px;
+      height: 5px;
+      border-top: 1px solid $color-dark;
+      border-right: 1px solid $color-dark;
+      transform: rotate(135deg) translate(-1px, 2px);
+      transition: all .5s ease;
+    }
+    .dropdown-arrow.active{
+      transform: rotate(-45deg) translate(-1px, -1px);  
+    }
+  }
+  .dropdown-btn.active{
+    border: 0.3px solid #252525;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+  }
+  .dropdown-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    background-color: $bg-color-body;
+    z-index: 2;
+    border: 0.3px solid #252525;
+    border-radius: 0px 0px 5px 5px;
+    border-top: none;
+    box-sizing: border-box;
+    .dropdown-item{
+      padding-top: 5px;
+      border-top: 1px solid $color-elements;
+      text-align: center;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+  }
+  .dropdown-content.active{
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+}

@@ -1,0 +1,16 @@
+@import '../../../styles/variables.scss';
+
+.like__button{
+    background-color: $color-elements;
+    width: 40px;
+    height: 40px;
+    border-radius: 0px 0px 0px 20px;
+    border: none;
+
+}
+@media(max-width:767px){
+    .like__button{
+        width: 35px;
+        height: 35px;
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "title": "Привет",
+    "description": {
+      "part1": "Как дела?",
+      "part2": "отлично"
+    },
+    "subscribe": "Подписатся",
+    "buttonLike": "В ИЗБРАННОЕ",
+    "searchPlaceholder": "Введите ваш запрос",
+    "nav": {
+      "new": "New",
+      "catalog": "КАТАЛОГ",
+      "about": "О НАС",
+      "pay": "ОПЛАТА И ДОСТАВКА",
+      "return": "УСЛОВИЯ ВОЗВРАТА",
+      "contact": "КОНТАКТЫ"
+    },
+    "filters": "Фильтры",
+    "select-size": "Выберите размер",
+    "add-basket": "В КОРЗИНУ",
+    "details": "Подробности",
+    "descr": "Обмеры и описание",
+    "care": "Состав и уход",
+    "category-list": {
+      "category-all" : "Все",
+      "outerwear": "Куртки",
+      "coat": "Пальто",
+      "trench coats": "Тренчи"
+    },
+    "errorSize": "Выберите размер",
+    "errorColor": "Выберите цвет",
+    "total sum": "К оплате:",
+    "to order": "Оформить заказ",
+    "required": "",
+    "validate": {
+      "required": "Обязательное поле",
+      "phone": "Некорректный номер телефона"
+    },
+    "order successfully": "Заказ успешно отправлен!"
+  }

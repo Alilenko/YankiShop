@@ -1,0 +1,53 @@
+@import '../../../styles/variables.scss';
+
+.dropdown-main{
+ width: 100%;
+ position: relative;
+
+  .dropdown-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: $border-dark;
+    .dropdown-arrow{
+      width: 5px;
+      height: 5px;
+      border-top: 1px solid $color-elements;
+      border-right: 1px solid $color-elements;
+      transform: rotate(135deg) translate(-1px, 2px);
+      transition: all .5s ease;
+      margin-left: 10px;
+    }
+    .dropdown-arrow.active{
+      transform: rotate(-45deg) translate(-1px, -1px);  
+    }
+  }
+  .dropdown-btn.active{
+    
+  }
+  .dropdown-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    background-color: $bg-color-body;
+    z-index: 2;
+    box-sizing: border-box;
+    .dropdown-item{
+      padding-top: 5px;
+      text-align: center;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+  }
+  .dropdown-content.active{
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+}

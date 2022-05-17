@@ -1,0 +1,17 @@
+
+.catalog{
+    display: flex;
+    justify-content: space-between;
+    .catalog__list{
+        flex: 1 1 auto;
+
+    }
+}
+@media(max-width:767px){
+    .catalog{
+        flex-direction: column;
+        .catalog__list{
+            width: 100%;
+        }
+    }
+}

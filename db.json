@@ -1,0 +1,300 @@
+
+{
+    "product": [
+        {
+            "id": 776576,
+            "title": "Кремовое пальто",
+            "img": [
+                {
+                    "img": "src/assets/image/productItem/Rectangle%2011.jpg",
+                    "imgBig": "./src/assets/image/one.jpg"
+                },
+                {
+                    "img": "./src/assets/image/Rectangle 21.jpg",
+                    "imgBig": "./src/assets/image/Rectangle 21.jpg"
+                },
+                {
+                    "img": "./src/assets/image/Rectangle 22.jpg",
+                    "imgBig": "./src/assets/image/Rectangle 22.jpg"
+                },
+                {
+                    "img": "./src/assets/image/Rectangle 23.jpg",
+                    "imgBig": "./src/assets/image/Rectangle 23.jpg"
+                },
+                {
+                    "img": "./src/assets/image/Rectangle 24.jpg",
+                    "imgBig": "./src/assets/image/Rectangle 24.jpg"
+                },
+                {
+                    "img": "./src/assets/image/Rectangle 25.jpg",
+                    "imgBig": "./src/assets/image/Rectangle 25.jpg"
+                }
+            ],
+            "price": 3150,
+            "color": [
+                {
+                  "name": "#fff",
+                  "colorDeckr": ""
+                },
+                {
+                  "name": "#6F83A4",
+                  "colorDeckr": ""
+                },
+                {
+                  "name": "#F1DDAA",
+                  "colorDeckr": "Кофе с молоком меланж"
+                } 
+              ],
+          "size": [
+              {"size": "S"},
+              {"size": "M"},
+              {"size": "L"}
+          ],
+          "description": "'Lorem'",
+          "compound": [
+            {"p": "Состав: 50% Шерсть, 50% Полиэстер"},
+            {"p": "Подкладка: 100% Полиэстер Утеплитель"},
+            {"p": "Утеплитель: 90% Пух, 10% Перо"}
+          ],
+          "care": [
+                {"p": "Не стирать"},
+                {"p": "Гладить при температуре утюга до 110°C"},
+                {"p": "Не отбеливать"},
+                {"p": "Сухая чистка (химчистка)"},
+                {"p": "Барабанная сушка запрещена"}
+          ]
+  
+        },
+        {
+            "id": 66567987,
+            "title": "Белая куртка",
+            "img": [
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 11.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 11.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 11.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 11.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 11.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 11.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 11.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 11.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 11.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 11.jpg"
+                }
+            ],
+            "price": 2900,
+            "color": [
+                {
+                  "name": "#fff",
+                  "colorDeckr": ""
+                },
+                {
+                  "name": "#6F83A4",
+                  "colorDeckr": ""
+                },
+                {
+                  "name": "#F1DDAA",
+                  "colorDeckr": "Кофе с молоком меланж"
+                } 
+              ],
+          "size": [
+            {"size": "XXS"},
+            {"size": "XS"},
+              {"size": "S"},
+              {"size": "M"},
+              {"size": "L"}
+          ],
+          "description": "'Lorem'",
+          "compound": [
+            {"p": "Состав: 50% Шерсть, 50% Полиэстер"},
+            {"p": "Подкладка: 100% Полиэстер Утеплитель"},
+            {"p": "Утеплитель: 90% Пух, 10% Перо"}
+          ],
+          "care": [
+                {"p": "Не стирать"},
+                {"p": "Гладить при температуре утюга до 110°C"},
+                {"p": "Не отбеливать"},
+                {"p": "Сухая чистка (химчистка)"},
+                {"p": "Барабанная сушка запрещена"}
+          ]
+        },
+        {
+            "id": 86545677,
+            "title": "Синее пальто",
+            "img": [
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 10.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 10.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 10.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 10.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 10.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 10.jpg"
+                }
+            ],
+            "price": 3150,
+            "color": [
+                {
+                  "name": "#fff",
+                  "colorDeckr": ""
+                },
+                {
+                  "name": "#6F83A4",
+                  "colorDeckr": ""
+                },
+                {
+                  "name": "#F1DDAA",
+                  "colorDeckr": "Кофе с молоком меланж"
+                } 
+              ],
+          "size": [
+              {"size": "S"},
+              {"size": "M"},
+              {"size": "L"}
+          ],
+          "description": "'Lorem'",
+          "compound": [
+            {"p": "Состав: 50% Шерсть, 50% Полиэстер"},
+            {"p": "Подкладка: 100% Полиэстер Утеплитель"},
+            {"p": "Утеплитель: 90% Пух, 10% Перо"}
+          ],
+          "care": [
+                {"p": "Не стирать"},
+                {"p": "Гладить при температуре утюга до 110°C"},
+                {"p": "Не отбеливать"},
+                {"p": "Сухая чистка (химчистка)"},
+                {"p": "Барабанная сушка запрещена"}
+          ]
+        },
+        {
+            "id": 455556777,
+            "title": "Бежевая шуба",
+            "img": [
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 7.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 7.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 7.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 7.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 7.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 7.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 7.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 7.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 7.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 7.jpg"
+                }
+            ],
+            "price": 4200,
+            "color": [
+                {
+                  "name": "#fff",
+                  "colorDeckr": ""
+                },
+                {
+                  "name": "#6F83A4",
+                  "colorDeckr": ""
+                },
+                {
+                  "name": "#F1DDAA",
+                  "colorDeckr": "Кофе с молоком меланж"
+                } 
+              ],
+          "size": [
+              {"size": "S"},
+              {"size": "M"},
+              {"size": "L"}
+          ],
+          "description": "'Lorem'",
+          "compound": [
+            {"p": "Состав: 50% Шерсть, 50% Полиэстер"},
+            {"p": "Подкладка: 100% Полиэстер Утеплитель"},
+            {"p": "Утеплитель: 90% Пух, 10% Перо"}
+          ],
+          "care": [
+                {"p": "Не стирать"},
+                {"p": "Гладить при температуре утюга до 110°C"},
+                {"p": "Не отбеливать"},
+                {"p": "Сухая чистка (химчистка)"},
+                {"p": "Барабанная сушка запрещена"}
+          ]
+        },
+        {
+            "id": 45554434,
+            "title": "Синяя парка",
+            "img": [
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 9.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 9.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 9.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 9.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 9.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 9.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 9.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 9.jpg"
+                },
+                {
+                    "img": "./src/assets/image/productItem/Rectangle 9.jpg",
+                    "imgBig": "./src/assets/image/productItem/Rectangle 9.jpg"
+                }
+            ],
+            "price": 2900,
+            "color": [
+                {
+                  "name": "#fff",
+                  "colorDeckr": ""
+                },
+                {
+                  "name": "#6F83A4",
+                  "colorDeckr": ""
+                },
+                {
+                  "name": "#F1DDAA",
+                  "colorDeckr": "Кофе с молоком меланж"
+                } 
+              ],
+          "size": [
+            {"size": "XS"},
+              {"size": "S"},
+              {"size": "M"},
+              {"size": "L"}
+          ],
+          "description": "'Lorem'",
+          "compound": [
+            {"p": "Состав: 50% Шерсть, 50% Полиэстер"},
+            {"p": "Подкладка: 100% Полиэстер Утеплитель"},
+            {"p": "Утеплитель: 90% Пух, 10% Перо"}
+          ],
+          "care": [
+                {"p": "Не стирать"},
+                {"p": "Гладить при температуре утюга до 110°C"},
+                {"p": "Не отбеливать"},
+                {"p": "Сухая чистка (химчистка)"},
+                {"p": "Барабанная сушка запрещена"}
+          ]
+        }
+    ]
+}

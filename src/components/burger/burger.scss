@@ -1,0 +1,58 @@
+@import '../../styles/variables.scss';
+
+.menu-btn {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: $bg-color-body;
+    position: relative;
+    z-index: 3;
+    padding: 10px;
+  }
+  .menu-btn span,
+  .menu-btn span::before,
+  .menu-btn span::after {
+    position: absolute;
+    top: 50%; margin-top: -1px;
+    width: 20px;
+    height: 2px;
+    background-color: $color-elements;
+  }
+  .menu-btn span.white,
+  .menu-btn span.white::before,
+  .menu-btn span.white::after {
+    background-color: #fff;
+  }
+  .menu-btn span::before,
+  .menu-btn span::after {
+    content: '';    
+    display: block;
+    transition: 0.2s;
+  }
+  .menu-btn span{
+      width: 15px;
+  }
+  .menu-btn span::after{
+    width: 10px;
+}
+  .menu-btn span::before {
+    transform: translateY(-5px);
+  }
+  .menu-btn.active span {
+    height: 0;
+  }
+  .menu-btn span::after {
+    transform: translateY(5px);
+  }
+  
+  .menu-btn.active span:before {
+    transform: rotate(-45deg);
+    transform-origin: center;
+  }
+  .menu-btn.active span:after {
+    transform: rotate(45deg);
+    transform-origin: center;
+    width: 20px;
+  }
+ 
+  

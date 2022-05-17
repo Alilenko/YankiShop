@@ -1,0 +1,50 @@
+@import '../../styles/variables.scss';
+
+.nav__active{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    height: 60px;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100%);
+    background-color: $bg-color-body;
+    z-index: 3;
+    transition: all .5s ease;
+    a{
+        padding-left: 30px;
+        color: $color-dark;
+        text-decoration: none;
+        line-height: 50px;
+        text-transform: uppercase;
+    }
+    .mobile_show{
+        display: none;
+    }
+}
+.nav__active.show{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+@media(max-width:767px){
+    .nav__active.show{
+        height: 100vh;
+        left: 0;
+        background-color: $bg-color-body;
+        z-index: 3;
+        .mobile_show{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        a{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

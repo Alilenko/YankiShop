@@ -1,0 +1,14 @@
+.sum{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 0;
+    span{
+        font-weight: 600;
+        padding: 0 6px;
+    }
+}
+.basket__button{
+    display: flex;
+    justify-content: center;
+}

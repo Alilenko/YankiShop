@@ -1,0 +1,40 @@
+{
+    "title": "Вітаю",
+    "description": {
+      "part1": "Як справи?",
+      "part2": "добре"
+    },
+    "subscribe": "Підписатися",
+    "buttonLike": "В ОБРАНЕ",
+    "searchPlaceholder": "Введіть ваш запит",
+    "nav": {
+      "new": "New",
+      "catalog": "Каталог",
+      "about": "Про нас",
+      "pay": "Оплата та доставка",
+      "return": "Повернення",
+      "contact": "Контакти"
+    },
+    "filters": "Фільтри",
+    "select-size": "Оберіть розмір",
+    "add-basket": "У КОШИК",
+    "details": "Деталі",
+    "descr": "Обміри та опис",
+    "care": "Склад та догляд",
+    "category-list": {
+      "category-all" : "Всі",
+      "outerwear": "Куртки",
+      "coat": "Пальто",
+      "trench coats": "Тренчі"
+    },
+    "errorSize": "Оберіть розмір",
+    "errorColor": "Оберіть колір",
+    "total sum": "До сплати:",
+    "to order": "Оформити замовлення",
+    "validate": {
+      "required": "Обов'язкове поле",
+      "phone": "Некоректний номер телефону"
+    },
+    "order successfully": "Замовлення успішно відпраленно!"
+ 
+  }

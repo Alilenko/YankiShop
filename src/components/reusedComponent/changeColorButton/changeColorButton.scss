@@ -1,0 +1,14 @@
+@import '../../../styles/variables.scss';
+.color__button{
+    width: 21px;
+    height: 21px;
+    border: none;
+    border-radius: 50%;
+    margin: 5px;
+}
+.color__button:hover{
+    border: $border-dark;
+}
+.color__button:active{
+    border: $border-dark;
+}
