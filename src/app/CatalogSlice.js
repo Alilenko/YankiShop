@@ -304,20 +304,7 @@ const initialState = {
     },
   ],
   error: false,
-  cart: [
-    {
-      availableSize: [{ size: "S" }, { size: "M" }, { size: "L" }],
-      cartId: "77667888765S#F1DDAA",
-      color: "#F1DDAA",
-      id: 77667888765,
-      img: "/static/media/one.cb6b3d78698ef159175e.jpg",
-      price: 3150,
-      qtty: 1,
-      size: "S",
-      sum: 3150,
-      title: "Кремовое пальто",
-    },
-  ],
+  cart: [],
   currentGoods: [
     {
       id: 66765678,
