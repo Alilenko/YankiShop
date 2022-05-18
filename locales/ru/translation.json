@@ -1,9 +1,4 @@
 {
-    "title": "Привет",
-    "description": {
-      "part1": "Как дела?",
-      "part2": "отлично"
-    },
     "subscribe": "Подписатся",
     "buttonLike": "В ИЗБРАННОЕ",
     "searchPlaceholder": "Введите ваш запрос",

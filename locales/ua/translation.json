@@ -1,9 +1,4 @@
 {
-    "title": "Вітаю",
-    "description": {
-      "part1": "Як справи?",
-      "part2": "добре"
-    },
     "subscribe": "Підписатися",
     "buttonLike": "В ОБРАНЕ",
     "searchPlaceholder": "Введіть ваш запит",
