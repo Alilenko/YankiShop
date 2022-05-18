@@ -1,6 +1,7 @@
 {
   "name": "store",
   "version": "0.1.0",
+  "homepage": "https://alilenko.github.io/YankiShop/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.1",
