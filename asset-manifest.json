@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce828e96.css",
-    "main.js": "/static/js/main.56753227.js",
-    "static/media/one.jpg": "/static/media/one.cb6b3d78698ef159175e.jpg",
-    "static/media/Rectangle 9.jpg": "/static/media/Rectangle 9.a9a6dfb4712fedb2faea.jpg",
-    "static/media/Rectangle 11.jpg": "/static/media/Rectangle 11.9b7b075b9c87836a355b.jpg",
-    "static/media/Rectangle 7.jpg": "/static/media/Rectangle 7.9810f252b9bd91926833.jpg",
-    "static/media/Rectangle 10.jpg": "/static/media/Rectangle 10.fdf08c18738ca256e48f.jpg",
-    "static/media/Rectangle 23.jpg": "/static/media/Rectangle 23.8cc5493c2fc36cafa8af.jpg",
-    "static/media/Rectangle 24.jpg": "/static/media/Rectangle 24.4762d3b93cd3f1fceb71.jpg",
-    "static/media/Rectangle 25.jpg": "/static/media/Rectangle 25.2138d25d9ce29e86cec5.jpg",
-    "static/media/Rectangle 22.jpg": "/static/media/Rectangle 22.649a61fe342da2ecf437.jpg",
-    "index.html": "/index.html",
-    "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.ce828e96.css.map": "/static/css/main.ce828e96.css.map",
-    "main.56753227.js.map": "/static/js/main.56753227.js.map"
+    "main.css": "/YankiShop/static/css/main.ce828e96.css",
+    "main.js": "/YankiShop/static/js/main.3ec277c4.js",
+    "static/media/one.jpg": "/YankiShop/static/media/one.cb6b3d78698ef159175e.jpg",
+    "static/media/Rectangle 9.jpg": "/YankiShop/static/media/Rectangle 9.a9a6dfb4712fedb2faea.jpg",
+    "static/media/Rectangle 11.jpg": "/YankiShop/static/media/Rectangle 11.9b7b075b9c87836a355b.jpg",
+    "static/media/Rectangle 7.jpg": "/YankiShop/static/media/Rectangle 7.9810f252b9bd91926833.jpg",
+    "static/media/Rectangle 10.jpg": "/YankiShop/static/media/Rectangle 10.fdf08c18738ca256e48f.jpg",
+    "static/media/Rectangle 23.jpg": "/YankiShop/static/media/Rectangle 23.8cc5493c2fc36cafa8af.jpg",
+    "static/media/Rectangle 24.jpg": "/YankiShop/static/media/Rectangle 24.4762d3b93cd3f1fceb71.jpg",
+    "static/media/Rectangle 25.jpg": "/YankiShop/static/media/Rectangle 25.2138d25d9ce29e86cec5.jpg",
+    "static/media/Rectangle 22.jpg": "/YankiShop/static/media/Rectangle 22.649a61fe342da2ecf437.jpg",
+    "index.html": "/YankiShop/index.html",
+    "static/media/getFetch.cjs": "/YankiShop/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.ce828e96.css.map": "/YankiShop/static/css/main.ce828e96.css.map",
+    "main.3ec277c4.js.map": "/YankiShop/static/js/main.3ec277c4.js.map"
   },
   "entrypoints": [
     "static/css/main.ce828e96.css",
-    "static/js/main.56753227.js"
+    "static/js/main.3ec277c4.js"
   ]
 }
