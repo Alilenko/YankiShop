@@ -396,7 +396,6 @@ const catalogSlice = createSlice({
       state.currentGoods = state.goods.filter(
         (item) => item.id == action.payload
       );
-      console.log(state.currentGoods);
     },
     addToCart: (state, action) => {
       state.cart.push(action.payload);
@@ -435,9 +434,12 @@ const catalogSlice = createSlice({
     },
     deleteFromFavorite: (state, action) => {
       state.favorite.splice(
-        state.cart.findIndex((item) => item.cartId === action.payload),
+        state.favorite.findIndex((item) => item.id === action.payload),
         1
       );
+    },
+    getFavoriteFromStorage: (state, action) => {
+      state.favorite = action.payload;
     },
   },
 });
@@ -456,4 +458,5 @@ export const {
   changeSearch,
   addToFavorite,
   deleteFromFavorite,
+  getFavoriteFromStorage,
 } = actions;

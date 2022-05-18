@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useSelector } from "react-redux";
 import { createSelector } from "reselect";
 import ProductListItem from "../productListItem/ProductListItem";
@@ -6,7 +6,7 @@ import ProductListItem from "../productListItem/ProductListItem";
 import "./productList.scss";
 
 const ProductList = () => {
-  const { goods, search } = useSelector((state) => state.catalog);
+  const { search } = useSelector((state) => state.catalog);
 
   const filteredNav = createSelector(
     (state) => state.catalog.category,

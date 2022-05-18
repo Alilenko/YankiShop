@@ -1,20 +1,29 @@
-import React, { useEffect } from "react";
-import { useSelector } from "react-redux";
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { deleteFromFavorite } from "../../app/CatalogSlice";
 import FavoriteItem from "../../components/favoriteItem/FavoriteItem";
 
 import "./favoritePage.scss";
 
 const FavoritePage = () => {
   const { favorite } = useSelector((state) => state.catalog);
+  const dispatch = useDispatch();
 
-  let getLocal = JSON.parse(localStorage.getItem("favorite"));
+  const deleteFavorite = (data) => {
+    dispatch(deleteFromFavorite(data.id));
+  };
 
-  console.log(getLocal);
   return (
     <div className="container">
       <div className="favorite__list">
-        {getLocal ? (
-          getLocal?.map((item, i) => <FavoriteItem key={item.id} data={item} />)
+        {favorite ? (
+          favorite?.map((item, i) => (
+            <FavoriteItem
+              key={item.id}
+              data={item}
+              deleteFavorite={deleteFavorite}
+            />
+          ))
         ) : (
           <div>No</div>
         )}

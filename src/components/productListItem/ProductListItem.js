@@ -2,44 +2,41 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-
+import { addToFavorite, deleteFromFavorite } from "../../app/CatalogSlice";
 import ChangeColorButton from "../reusedComponent/changeColorButton/ChangeColorButton";
 import LikeButtonMini from "../reusedComponent/likeButtonMini/LikeButtonMini";
 import ButtonMain from "../reusedComponent/buttonMain/ButtonMain";
+
 import "./productListItem.scss";
 
 const ProductListItem = ({ data }) => {
-  // const { id, img, title, price, size, color, status } = data;
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const dispatch = useDispatch();
   const { favorite } = useSelector((state) => state.catalog);
   const [checked, setChecked] = useState(false);
 
   const [colorActive, setColorActive] = useState("");
 
-  let existingEntries = JSON.parse(localStorage.getItem("favorite"));
   useEffect(() => {
-    if (existingEntries?.find((e) => e.id === data.id)) {
+    localStorage.setItem("favorite", JSON.stringify(favorite));
+    if (favorite?.find((e) => e.id === data.id)) {
       setChecked(true);
+    } else {
+      setChecked(false);
     }
-  }, []);
+  }, [favorite]);
 
   const favoriteClick = (data) => {
-    if (existingEntries == null) existingEntries = [];
-    if (existingEntries.findIndex((el) => el.id === data.id) === -1) {
+    if (favorite?.findIndex((el) => el.id === data.id) === -1) {
       const newFavorite = {
         title: data.title,
         id: data.id,
         img: data.img[0].imgBig,
       };
-      existingEntries.push(newFavorite);
-      console.log(existingEntries);
-      localStorage.setItem("favorite", JSON.stringify(existingEntries));
+      dispatch(addToFavorite(newFavorite));
       setChecked(true);
     } else {
-      const find = existingEntries.findIndex((el) => el.id === data.id);
-      existingEntries.splice(find, 1);
-      localStorage.setItem("favorite", JSON.stringify(existingEntries));
+      dispatch(deleteFromFavorite(data.id));
       setChecked(false);
     }
   };
