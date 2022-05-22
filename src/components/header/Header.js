@@ -14,14 +14,14 @@ import HeaderNavActive from "../headerNavActive/HeaderNavActive";
 
 const Header = () => {
   const { t, i18n } = useTranslation();
-  const [isActive, setisActive] = useState(false);
+  const [isActive, setIsActive] = useState(false);
   const { cart } = useSelector((state) => state.catalog);
 
   return (
     <header className="header container">
-      <HeaderNavActive isActive={isActive} />
+      <HeaderNavActive isActive={isActive} setIsActive={setIsActive} />
       <div className="header__left">
-        <Burger isActive={isActive} setIsActive={setisActive} />
+        <Burger isActive={isActive} setIsActive={setIsActive} />
         <NavLink
           className={({ isActive }) =>
             isActive ? "header__navlink_active" : "mobile_hide"
