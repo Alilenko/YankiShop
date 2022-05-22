@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/YankiShop/static/css/main.ce828e96.css",
-    "main.js": "/YankiShop/static/js/main.365e0f42.js",
+    "main.css": "/YankiShop/static/css/main.56d78742.css",
+    "main.js": "/YankiShop/static/js/main.4620ac4e.js",
     "static/media/one.jpg": "/YankiShop/static/media/one.cb6b3d78698ef159175e.jpg",
     "static/media/Rectangle 9.jpg": "/YankiShop/static/media/Rectangle 9.a9a6dfb4712fedb2faea.jpg",
     "static/media/Rectangle 11.jpg": "/YankiShop/static/media/Rectangle 11.9b7b075b9c87836a355b.jpg",
@@ -13,11 +13,11 @@
     "static/media/Rectangle 22.jpg": "/YankiShop/static/media/Rectangle 22.649a61fe342da2ecf437.jpg",
     "index.html": "/YankiShop/index.html",
     "static/media/getFetch.cjs": "/YankiShop/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.ce828e96.css.map": "/YankiShop/static/css/main.ce828e96.css.map",
-    "main.365e0f42.js.map": "/YankiShop/static/js/main.365e0f42.js.map"
+    "main.56d78742.css.map": "/YankiShop/static/css/main.56d78742.css.map",
+    "main.4620ac4e.js.map": "/YankiShop/static/js/main.4620ac4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce828e96.css",
-    "static/js/main.365e0f42.js"
+    "static/css/main.56d78742.css",
+    "static/js/main.4620ac4e.js"
   ]
 }
