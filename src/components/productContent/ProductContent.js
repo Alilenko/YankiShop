@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart, changeQttyInCart } from "../../app/CatalogSlice";
+import {
+  addToCart,
+  changeQttyInCart,
+  addToFavorite,
+  deleteFromFavorite,
+} from "../../app/CatalogSlice";
 import { useTranslation } from "react-i18next";
 import { db, colRef } from "../../firebase";
 import { addDoc } from "firebase/firestore";
@@ -18,7 +23,7 @@ import "./productContent.scss";
 const ProductContent = ({ item }) => {
   const { t, i18n } = useTranslation();
   const dispatch = useDispatch();
-  const { cart } = useSelector((state) => state.catalog);
+  const { cart, favorite } = useSelector((state) => state.catalog);
   const [colorActive, setColorActive] = useState("");
   const [colorNameActive, setColorNameActive] = useState("");
   const [stateSize, setStateSize] = useState("");
@@ -65,6 +70,19 @@ const ProductContent = ({ item }) => {
     }
   };
 
+  const favoriteClick = (data) => {
+    if (favorite?.findIndex((el) => el.id === data.id) === -1) {
+      const newFavorite = {
+        title: data.title,
+        id: data.id,
+        img: data.img[0].imgBig,
+      };
+      dispatch(addToFavorite(newFavorite));
+    } else {
+      dispatch(deleteFromFavorite(data.id));
+    }
+  };
+
   return (
     <div className="product__content">
       <div className="product__title">{item.title}</div>
@@ -92,7 +110,11 @@ const ProductContent = ({ item }) => {
       {notEnoughData && <div className="error__data">{notEnoughData}</div>}
       <div className="product__button">
         <ButtonMain text={t("add-basket")} onClick={() => addToBasket(item)} />
-        <ButtonOutline text={t("buttonLike")} img={<LikeSvg />} />
+        <ButtonOutline
+          text={t("buttonLike")}
+          img={<LikeSvg />}
+          onClick={() => favoriteClick(item)}
+        />
       </div>
       <div className="product__details">{t("details")}</div>
       <div className="product__accordeon">

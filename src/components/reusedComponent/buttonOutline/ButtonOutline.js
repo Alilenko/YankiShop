@@ -1,12 +1,13 @@
-import React from 'react';
-import './buttonOutline.scss';
+import React from "react";
+import "./buttonOutline.scss";
 
-const ButtonOutline = ({text, img}) => {
+const ButtonOutline = ({ text, img, onClick }) => {
   return (
-      <button className='button-outline'>
-        {img ? <div className='button-img'>{img}</div> : null}
-        {text}</button>
-  )
+    <button onClick={onClick} className="button-outline">
+      {img ? <div className="button-img">{img}</div> : null}
+      {text}
+    </button>
+  );
 };
 
 export default ButtonOutline;

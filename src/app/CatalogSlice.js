@@ -410,6 +410,9 @@ const catalogSlice = createSlice({
           state.cart.findIndex((item) => item.cartId === action.payload.id)
         ].price;
     },
+    clearBasket: (state) => {
+      state.cart = [];
+    },
     changeCategory: (state, action) => {
       state.category = action.payload;
     },
@@ -441,6 +444,7 @@ export const {
   deleteFromCart,
   changeSizeInCart,
   changeQttyInCart,
+  clearBasket,
   changeCategory,
   changeSearch,
   addToFavorite,

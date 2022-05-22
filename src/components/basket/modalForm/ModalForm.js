@@ -1,9 +1,11 @@
 import React from "react";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { Formik, Form, Field, ErrorMessage } from "formik";
+import { serverTimestamp } from "firebase/firestore";
 import { useTranslation } from "react-i18next";
-import { colRef } from "../../../firebase";
+import { colRef, q } from "../../../firebase";
 import { addDoc } from "firebase/firestore";
+import { clearBasket } from "../../../app/CatalogSlice";
 import ButtonMain from "../../reusedComponent/buttonMain/ButtonMain";
 
 import "./modalForm.scss";
@@ -11,6 +13,7 @@ import "./modalForm.scss";
 const ModalForm = ({ setOpen, setSuccess }) => {
   const { cart } = useSelector((state) => state.catalog);
   const { t, i18n } = useTranslation();
+  const dispatch = useDispatch();
 
   const addOrderToFirebase = async (values, resetForm) => {
     const orderData = [];
@@ -38,6 +41,7 @@ const ModalForm = ({ setOpen, setSuccess }) => {
       setOpen(false);
       setSuccess(false);
     }, [2000]);
+    dispatch(clearBasket());
   };
 
   return (

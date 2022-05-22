@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection } from "firebase/firestore";
+import { getFirestore, collection, orderBy, query } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDD7KgOEz9igIcLWQFC-w4Xall-ZD9Du9E",
@@ -14,3 +14,4 @@ export const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore();
 export const colRef = collection(db, "orders");
+//export const q = query(colRef, orderBy("timestamp", "asc"));

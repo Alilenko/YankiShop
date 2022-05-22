@@ -11,6 +11,7 @@ import { BasketPage } from "./pages/basketPage/BasketPage";
 import FavoritePage from "./pages/favoritePage/FavoritePage";
 
 import "./App.css";
+import AboutPage from "./pages/aboutPage/AboutPage";
 
 function App() {
   const dispatch = useDispatch();
@@ -26,11 +27,12 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/home" element={<HomePage />} />
         <Route path="/product/:id" element={<ProductPage />} />
-        <Route path="/catalog" element={<CatalogPage />} />
+        <Route path="/" element={<CatalogPage />} />
         <Route path="/cart" element={<BasketPage />} />
         <Route path="/favorite" element={<FavoritePage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
     </div>
   );

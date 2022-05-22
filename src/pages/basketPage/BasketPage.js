@@ -29,7 +29,10 @@ export const BasketPage = () => {
   let order = [];
   onSnapshot(colRef, (snapshot) => {
     snapshot.docs.forEach((doc) => {
-      order.push({ ...doc._document.data.value.mapValue.fields, id: doc.id });
+      order.push({
+        ...doc._document.data.value.mapValue.fields,
+        id: doc.id,
+      });
     });
   });
 

@@ -26,7 +26,7 @@ const Header = () => {
           className={({ isActive }) =>
             isActive ? "header__navlink_active" : "mobile_hide"
           }
-          to="/product"
+          to="/home"
         >
           {t("nav.new")}
         </NavLink>
@@ -34,7 +34,7 @@ const Header = () => {
           className={({ isActive }) =>
             isActive ? "header__navlink_active" : "mobile_hide"
           }
-          to="/catalog"
+          to="/"
         >
           {t("nav.catalog")}
         </NavLink>
@@ -42,7 +42,7 @@ const Header = () => {
           className={({ isActive }) =>
             isActive ? "header__navlink_active" : "mobile_hide"
           }
-          to="/test"
+          to="/about"
         >
           {t("nav.about")}
         </NavLink>

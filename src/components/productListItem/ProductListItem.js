@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+
 import { addToFavorite, deleteFromFavorite } from "../../app/CatalogSlice";
 import ChangeColorButton from "../reusedComponent/changeColorButton/ChangeColorButton";
 import LikeButtonMini from "../reusedComponent/likeButtonMini/LikeButtonMini";
