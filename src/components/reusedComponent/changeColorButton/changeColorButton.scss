@@ -12,3 +12,9 @@
 .color__button:active{
     border: $border-dark;
 }
+@media(max-width: 420px){
+    .color__button{
+        width: 16px;
+        height: 16px;
+    }
+}

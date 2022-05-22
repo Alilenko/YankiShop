@@ -40,7 +40,7 @@ export const BasketItem = ({ item }) => {
   return (
     <div className="basket__item">
       <img className="basket__img" src={item.img} />
-      <div>{item.title}</div>
+      <div className="basket__title">{item.title}</div>
       <ChangeColorButton color={item.color} />
       <div className="basket__size">
         <ContentDropdown
