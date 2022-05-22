@@ -16,6 +16,7 @@
             color: $color-dark;
             text-decoration: none;
             line-height: 50px;
+            padding: 0px 5px;
         }
  
     }
@@ -82,6 +83,10 @@
                 }
             }
         }
+    .header__navlink_active{
+        display: none;
+        
+    }
     }
 }
 @media(max-width:490px){
